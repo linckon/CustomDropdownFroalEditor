@@ -26,5 +26,11 @@ namespace DemoFroalaEditor.Controllers
 
             return View();
         }
+
+       public JsonResult GetSelection(int id){
+
+        return Json("Ok");
+       }
+       
     }
 }
